@@ -16,11 +16,11 @@ terraform {
 
   backend "s3" {
 
-    bucket = "advanced-end-to-end-devsecops"
+    bucket = "advanced-end-to-end-devsecops-haks"
 
     key = "state/terraform.tfstate"
 
-    region = "us-east-1"
+    region = "ap-south-1"
 
     encrypt = true
 
